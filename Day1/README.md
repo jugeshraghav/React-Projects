@@ -8,6 +8,8 @@ It is a project in order to learn the basic concepts of ReactJS. In this project
 
 ## How to view the project on your local machine:
 ### 1. fork the repository 
+Click on the fork button and the repository will be forked to your github.
+![Fork](./images/fork.png)
 
 ### 2. clone the repository using the following command.
 ```
