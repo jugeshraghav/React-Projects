@@ -1,10 +1,10 @@
-## Project 1 (Day 1)
+# Project 1 (Day 1)
 It is a project in order to learn the basic concepts of ReactJS. In this project we have only used some data to display on the browser. 
 
-## Default view 
+# Default view 
 ![DefaultView](./images/default.png)
 
-## Tech Used:
+# Tech Used:
 
 ## How to view the project on your local machine:
 ### 1. fork the repository 
@@ -24,7 +24,7 @@ npm start
 ```
 
 
-## Want to join us in our 10 days challenge
+# Want to join us in our 10 days challenge
 If you wish to learn the basic concepts of ReactJs, then join us in our 10 days challenge. The challenge may exceed 10 days because we are focusing to learn all the basic concepts of react and deep diving into them by doing projects. If you wish to learn with us then just connect with me on linkedin and DM me : https://www.linkedin.com/in/jugesh-raghav-7895551a2/
 
-## Happy Coding 😀
+# Happy Coding 😀
