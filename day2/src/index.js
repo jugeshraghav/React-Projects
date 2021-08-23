@@ -1,17 +1,32 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import RecentPost from "./Components/Recent";
+import Rightbox1 from "./Components/Rightbox1";
+import Rightbox2 from "./Components/Rightbox2";
+import Rightbox3 from "./Components/Rightbox3";
+import Footer from "./Components/Footer";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+    <>
+        <p className="heading">MY BLOG</p>
+        <p>Welcome to the blog of <span className="author">JUGESH RAGHAV</span></p>
+        <div className="container">
+            <div className="half">
+             <RecentPost/>
+             <RecentPost/> 
+             <RecentPost/>
+            </div>
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+            <div className="half">
+                <Rightbox1/>
+                 <Rightbox2/>
+                 <Rightbox2/>
+                <Rightbox3/>       
+            </div>
+        </div>    
+        <Footer/>
+            
+        </>,
+            document.getElementById("root")
+                            );
