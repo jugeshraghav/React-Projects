@@ -23,6 +23,11 @@ const Data = [
         name: "😃 Liz",
         location: "🏘️ Beirut",
         car: "🚘 Mercedes"
+      },
+      {
+        name: "😃 Alex",
+        location: "🏘️ London",
+        car: "🚘 Thar"
       }
 ];
 
