@@ -1,0 +1,22 @@
+body{
+    background-color:darkslategrey;
+    margin:0;
+    padding:0px;
+    font-family:cursive;
+}
+.container{
+    background-color:white;
+    width:500px;
+    margin:auto;
+    text-align:center;
+    box-shadow:4px 5px 5px white;
+}
+.heading{
+    background-color:white;
+    text-align:center;
+    padding:10px;
+    font-size:50px;
+}
+h3{
+    font-size:30px;
+}
