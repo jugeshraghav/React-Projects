@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(161, 211, 183);
+}
+.container{
+    background-color: white;
+    width:500px;
+    height:100%;
+    margin:auto;
+    margin-top:100px;
+    padding:10px 0;
+    text-align:center;
+    font-family:cursive;
+    box-shadow:4px 4px 5px black;
+}
+h1{
+    font-size:2.5em;
+    margin-bottom:40px;
+}
+input{
+    width:400px;
+    font-size:30px;
+    font-family:cursive;
+    border:none;
+    border-bottom:1px solid black;
+}
+.addButton{
+    font-size:30px;
+    font-weight:bold;
+    border-radius:50%;
+    border:none;
+    padding:10px 20px;
+    margin-left:-10px;
+    background-color:yellow;
+}
+.addButton:hover{
+    background-color:green;
+}
+.item{
+    display:block;
+    margin-top:40px;
+    text-align:left;
+}
+.deleteButton{
+    background-color:white;
+    display:inline;
+   font-size:30px;
+   padding:0px 10px;
+   font-weight:bold;
+}
+.deleteButton:hover{
+    background-color:red;
+}
+li{
+    list-style:none;
+    display:inline;
+    font-size:25px;
+    margin-left:10px;
+}
