@@ -6,7 +6,6 @@ const App = ()=>{
     const [array , setArray]=useState([]);
     const setBackWork=(event)=>{
         setWork(event.target.value);
-     
     }
     const setWorkOnclick=()=>{
         if(work){
